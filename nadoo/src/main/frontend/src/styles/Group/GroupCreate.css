@@ -1,0 +1,81 @@
+.GroupCreate_title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'yg-jalnan';
+  text-align: center;
+}
+
+.GroupCreate_button {
+  width: 200px;
+  height: 2.5rem;
+  margin: 0.625rem;
+  /* margin-top: 1.25rem; */
+  margin-bottom: 3.125rem;
+  background: #6c63ff;
+  border-radius: 24px;
+  border: none;
+  color: white;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 1.0625rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-input-affix-wrapper:not(:where(.css-dev-only-do-not-override-acm2ia).ant-input-affix-wrapper-disabled):hover {
+  border-color: #09cf83;
+  border-inline-end-width: 1px;
+  z-index: 1;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-input-affix-wrapper:not(:where(.css-dev-only-do-not-override-acm2ia).ant-input-affix-wrapper-disabled)::before {
+  border-color: #6c63ff;
+  border-inline-end-width: 1px;
+  z-index: 1;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-input:hover {
+  border-color: #09cf83;
+  border-inline-end-width: 1px;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-input-textarea-show-count::after {
+  border-color: #09cf83;
+  border-inline-end-width: 1px;
+  text-align: center;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-input:focus,
+:where(.css-dev-only-do-not-override-acm2ia).ant-input-affix-wrapper-focused,
+:where(.css-dev-only-do-not-override-acm2ia).ant-input-focused {
+  border-color: #09cf83;
+  box-shadow: 0 0 0 2px rgb(5 145 255 / 10%);
+  border-inline-end-width: 1px;
+  outline: 0;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-picker:hover,
+:where(.css-dev-only-do-not-override-acm2ia).ant-picker-focused {
+  border-color: #09cf83;
+  border-inline-end-width: 1px;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-picker-large .ant-picker-input>input {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.ant-input-textarea {
+  margin: 0 auto;
+}
+
+.site-form-item-icon {
+  padding: 10px;
+  font-size: large;
+}
+
+.GroupCreate_select {
+  width: 90%;
+  text-align: center;
+  display: inline-block;
+}
